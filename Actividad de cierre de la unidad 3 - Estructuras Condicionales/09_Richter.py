@@ -10,4 +10,4 @@ elif scale >= 5 and scale < 6:
 elif scale >= 6 and scale < 7:
     print("Muy Fuerte")
 else:
-    print("Extremo")2
+    print("Extremo")

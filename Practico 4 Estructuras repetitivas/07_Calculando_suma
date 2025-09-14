@@ -1,0 +1,9 @@
+nro = int(input("Ingrese un numero entero: "))
+suma = 0
+
+if nro < 0:
+    print("ERROR")
+else:
+    for i in range(0,nro+1):
+        suma += i
+        print(suma)

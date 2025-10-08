@@ -23,7 +23,7 @@ while True:
             for i in range(cantidad):
                 titulo = input("Agregar título: ")
                 Ltitulos.append(titulo)
-                Lejemplares.append(0) 
+                
 
         case 2:
             for i in range(len(Ltitulos)):
@@ -32,7 +32,9 @@ while True:
 
         case 3:
             for i in range(len(Ltitulos)):
-                print(f"{Ltitulos[i]} -> {Lejemplares[i]} ejemplares")
+                print(f"{Ltitulos[i]} -> {Lejemplares[i]} ejemplares") 
+                
+                
 
         case 4:
             buscar = input("Ingrese el título a consultar: ")
@@ -58,13 +60,13 @@ while True:
             libro = input("Ingrese el título a actualizar: ")
             if libro in Ltitulos:
                 i = Ltitulos.index(libro)
-                accion = input("¿Préstamo o devolución?: ").lower()
-                if accion == "préstamo" and Lejemplares[i] > 0:
+                accion = input("¿Prestamo o devolucion?: ").lower()
+                if accion == "prestamo" and Lejemplares[i] > 0:
                     Lejemplares[i] -= 1
-                    print("Préstamo registrado.")
-                elif accion == "devolución":
+                    print("Prestamo registrado.")
+                elif accion == "devolucion":
                     Lejemplares[i] += 1
-                    print("Devolución registrada.")
+                    print("Devolucion registrada.")
                 else:
                     print("No se puede realizar la acción.")
             else:

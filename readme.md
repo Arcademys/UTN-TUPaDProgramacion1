@@ -2,9 +2,10 @@
   <strong>╔════════════════════════════════════╗</strong><br>
   <strong>🐍 Programación en Python</strong><br>
   <strong>╚════════════════════════════════════╝</strong><br><br>
-  Alumno: Juan José<br>
-  Profesor: Miguel Pintos<br>
-  Universidad: UTN San Nicolás<br>
-  Carrera: Tecnicatura en Programación a Distancia
+📘 <strong>Alumno:</strong> Juan José  
+👨‍🏫 <strong>Profesor:</strong> Miguel  
+🏛️ <strong>Universidad:</strong> UTN San Nicolás  
+💻 <strong>Carrera:</strong> Tecnicatura en Programación a Distancia  
+📅 <strong>Año:</strong> 2025
 </p>
 

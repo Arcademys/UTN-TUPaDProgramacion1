@@ -42,3 +42,45 @@ else:
 
 print("Ejercicio 5\n")
 
+frase = input("Ingrese una frase: ")
+
+palabras = frase.split()
+
+palabras_unicas = set(palabras)
+recuento = {}
+
+for palabra in palabras:
+    if palabra in recuento:
+        recuento[palabra] +=1
+    else:
+        recuento[palabra] = 1
+
+print("Palabras", palabras_unicas)
+print("Recuento:", recuento)
+
+
+print("Ejercicio 6\n")
+
+
+alumnos = {}
+
+
+for i in range(3):
+    
+
+    
+    nota1 = float(input("Ingrese nota 1: "))
+    nota2 = float(input("Ingrese nota 2: "))
+    nota3 = float(input("Ingrese nota 3: "))
+
+
+    notas = (nota1, nota2, nota3)
+
+  
+    alumnos[nombre] = notas
+
+
+print("\nPromedio de cada alumno:")
+for nombre, notas in alumnos.items():
+    promedio = sum(notas) / len(notas)
+    print(nombre, "→ Promedio:", promedio)

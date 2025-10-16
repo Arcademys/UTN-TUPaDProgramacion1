@@ -1,11 +1,9 @@
-def celsius_a_fahrenheit(celsius):
-    fahrenheit = (celsius * 9/5) + 32
-    return fahrenheit
+def doble_operacion(n):
+    suma = n + 2
+    mult = n * 2
+    return suma, mult
 
-
-celsius = float(input("Ingrese la temperatura en grados Celsius: "))
-
-
-fahrenheit = celsius_a_fahrenheit(celsius)
-print(f"{celsius:.2f}°C equivalen a {fahrenheit:.2f}°F")
+a, b = doble_operacion(3)
+print("Suma:", a)
+print("Multiplicación:", b)
 

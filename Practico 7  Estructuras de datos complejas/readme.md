@@ -31,9 +31,7 @@ mi_tupla = (1, 2, 3)
  Acceder a elementos
 mi_tupla[1]                   # 👁️ Segundo elemento → 2
 
- 
-
-**⚠️Las tuplas son inmutables: no se pueden modificar ni borrar elementos⚠️**
+ **⚠️Las tuplas son inmutables: no se pueden modificar ni borrar elementos⚠️**
  **📘Usos comunes:** agrupar datos fijos (por ejemplo, coordenadas o constantes).
 
 # 🧪 **Conjuntos (`set`)**
@@ -51,6 +49,7 @@ mi_set.pop()                  # ❌ Elimina aleatorio
 
 Vaciar el set
 mi_set.clear()                # 🧹 Vacía el set
+
 📘 **Usos comunes:** eliminar duplicados, operaciones de unión/intersección, comparar conjuntos.
 
 # 📚 **Diccionarios (`dict`)**
@@ -70,6 +69,7 @@ mi_dict.pop("nombre")         # ❌ Elimina y devuelve valor
 
 Vaciar el diccionario
 mi_dict.clear()               # 🧹 Vacía el diccionario
+
 🔍 **Métodos útiles de diccionario**
 mi_dict = {"nombre": "Juan", "edad": 25, "curso": "Python"}
 
@@ -84,8 +84,8 @@ mi_dict.values()
 .items() → 🧩 Pares clave-valor
 mi_dict.items()
 → dict_items([('nombre', 'edad', 'curso')])
-📘 **¿Para qué sirven?**
 
+📘 **¿Para qué sirven?**
 -   `.keys()` → recorrer claves, validar existencia (`if "nombre" in mi_dict`)
     
 -   `.values()` → buscar valores, estadísticas, filtrado

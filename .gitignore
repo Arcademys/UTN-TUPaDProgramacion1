@@ -1,1 +1,36 @@
+# --- Carpetas de entorno y compilación ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+
+# --- Entornos virtuales ---
+env/
+venv/
+.venv/
+ENV/
+ENV3/
+build/
+dist/
+*.egg-info/
+
+# --- Archivos de configuración del editor ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Archivos del sistema (Windows / macOS / Linux) ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos temporales ---
+*.log
+*.tmp
+
+# --- Carpetas personales de pruebas ---
 Pruebas/
+
+# --- Otros ---
+*.bak
+*.swp

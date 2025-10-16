@@ -1,6 +1,26 @@
-🧠 Guía Visual: Estructuras de Datos en Python
+<h1 align="center">🧠 Guía Visual: Estructuras de Datos en Python</h1>
 
-📋 Listas (list)
+<p align="center">
+<em>Aprendé a dominar las estructuras básicas de Python con ejemplos claros y visuales 🐍</em>
+</p>
+
+---
+
+## 📘 Índice
+- [📋 Listas (`list`)](#-listas-list)
+- [🔗 Tuplas (`tuple`)](#-tuplas-tuple)
+- [🧪 Conjuntos (`set`)](#-conjuntos-set)
+- [📚 Diccionarios (`dict`)](#-diccionarios-dict)
+- [🔍 Métodos útiles de diccionario](#-métodos-útiles-de-diccionario)
+- [🔁 Recorrer estructuras](#-recorrer-estructuras)
+- [🧩 Extras útiles](#-extras-útiles)
+
+---
+
+<details open>
+<summary><h2>📋 Listas (<code>list</code>)</h2></summary>
+
+```python
 # Crear una lista vacía
 mi_lista = []
 
@@ -19,7 +39,7 @@ del mi_lista[0]               # ❌ Elimina por índice
 # Vaciar la lista
 mi_lista.clear()              # 🧹 Vacía la lista
 
-🔗 Tuplas (tuple
+<details> <summary><h2>🔗 Tuplas (<code>tuple</code>)</h2></summary>
 # Crear una tupla vacía
 mi_tupla = ()
 
@@ -31,7 +51,12 @@ mi_tupla[1]                   # 👁️ Segundo elemento → 2
 
 # ⚠️ Las tuplas son inmutables: no se pueden modificar ni borrar elementos
 
-🧪 Conjuntos (set)
+
+💡 Usos comunes: agrupar datos fijos (por ejemplo, coordenadas o constantes).
+
+</details>
+
+<details> <summary><h2>🧪 Conjuntos (<code>set</code>)</h2></summary>
 # Crear un set vacío
 mi_set = set()
 
@@ -47,7 +72,11 @@ mi_set.pop()                  # ❌ Elimina aleatorio
 # Vaciar el set
 mi_set.clear()                # 🧹 Vacía el set
 
-📚 Diccionarios (dict)
+
+💡 Usos comunes: eliminar duplicados y realizar operaciones de conjuntos (unión, intersección).
+
+</details>
+<details> <summary><h2>📚 Diccionarios (<code>dict</code>)</h2></summary>
 # Crear un diccionario vacío
 mi_dict = {}
 
@@ -65,28 +94,35 @@ mi_dict.pop("nombre")         # ❌ Elimina y devuelve valor
 # Vaciar el diccionario
 mi_dict.clear()               # 🧹 Vacía el diccionario
 
-🔍 Métodos útiles de diccionario
+
+💡 Usos comunes: almacenar pares clave-valor como registros o configuraciones.
+
+</details>
+<details> <summary><h2>🔍 Métodos útiles de diccionario</h2></summary>
 mi_dict = {"nombre": "Juan", "edad": 25, "curso": "Python"}
 
 # .keys() → 🔑 Claves
-mi_dict.keys()  
+mi_dict.keys()
 # → dict_keys(['nombre', 'edad', 'curso'])
 
 # .values() → 📦 Valores
-mi_dict.values()  
+mi_dict.values()
 # → dict_values(['Juan', 25, 'Python'])
 
 # .items() → 🧩 Pares clave-valor
-mi_dict.items()  
-# → dict_items([('nombre', 'Juan'), ('edad', 25), ('curso', 'Python')])
+mi_dict.items()
+# → dict_items([('nombre', 'edad'), ('curso', 'Python')])
 
+📌 ¿Para qué sirven?
 
-¿Para qué sirven?
-- .keys() → recorrer claves, validar existencia (if "nombre" in mi_dict)
-- .values() → buscar valores, estadísticas, filtrado
-- .items() → ideal para bucles for clave, valor in mi_dict.items()
+.keys() → recorrer claves, validar existencia (if "nombre" in mi_dict)
 
-🔁 Recorrer estructuras
+.values() → buscar valores, estadísticas, filtrado
+
+.items() → ideal para bucles for clave, valor in mi_dict.items()
+
+</details>
+<details> <summary><h2>🔁 Recorrer estructuras</h2></summary>
 for elemento in mi_lista:
     print(elemento)
 
@@ -97,8 +133,10 @@ for clave, valor in mi_dict.items():
     print(f"{clave}: {valor}")
 
 
+💡 Consejo: usá .items() para recorrer claves y valores al mismo tiempo.
 
-🧩 Extras útiles
+</details>
+<details> <summary><h2>🧩 Extras útiles</h2></summary>
 # Copiar estructuras
 nueva_lista = mi_lista.copy()
 nuevo_dict = mi_dict.copy()
@@ -110,45 +148,8 @@ if "nombre" in mi_dict:
 if 10 in mi_lista:
     print("El valor 10 está en la lista")
 
-🔍 Métodos útiles de diccionario
-mi_dict = {"nombre": "Juan", "edad": 25, "curso": "Python"}
 
-# .keys() → 🔑 Claves
-mi_dict.keys()  
-# → dict_keys(['nombre', 'edad', 'curso'])
+💡 Truco: .copy() crea una copia superficial (los objetos dentro siguen siendo los mismos).
 
-# .values() → 📦 Valores
-mi_dict.values()  
-# → dict_values(['Juan', 25, 'Python'])
-
-# .items() → 🧩 Pares clave-valor
-mi_dict.items()  
-# → dict_items([('nombre', 'Juan'), ('edad', 25), ('curso', 'Python')])
-
-¿Para qué sirven?
-• 	 → recorrer claves, validar existencia (if"nombre" in mi_dict)
-• 	 → buscar valores, estadísticas, filtrado
-• 	 → ideal para bucles for clave, valor in mi_dict,items()
-
-🔁 Recorrer estructuras
-for elemento in mi_lista:
-    print(elemento)
-
-for clave in mi_dict:
-    print(clave, mi_dict[clave])
-
-for clave, valor in mi_dict.items():
-    print(f"{clave}: {valor}")
-
-🧩 Extras útiles
-# Copiar estructuras
-nueva_lista = mi_lista.copy()
-nuevo_dict = mi_dict.copy()
-
-# Verificar existencia
-if "nombre" in mi_dict:
-    print("Existe la clave 'nombre'")
-
-if 10 in mi_lista:
-    print("El valor 10 está en la lista")
-
+</details>
+<h3 align="center">🐍 Python es poderoso cuando dominás sus estructuras básicas 💪</h3> ```

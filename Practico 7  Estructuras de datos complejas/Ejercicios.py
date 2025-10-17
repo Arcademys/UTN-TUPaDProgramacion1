@@ -84,3 +84,22 @@ print("\nPromedio de cada alumno:")
 for nombre, notas in alumnos.items():
     promedio = sum(notas) / len(notas)
     print(nombre, "→ Promedio:", promedio)
+
+
+print("Ejercicio 7\n")
+
+parcial1 = {"A", "B", "C", "D"}
+parcial2 = {"C", "D", "E", "F"}
+
+ambos = parcial1 & parcial2
+print("Aprobaron ambos parciales:", ambos)
+
+solo_uno = parcial1 ^ parcial2
+print("Aprobaron solo uno de los dos: ", solo_uno)
+
+al_menos_uno = parcial1 | parcial2
+print("Aprobaron al menos un parcial: ", al_menos_uno)
+
+
+
+

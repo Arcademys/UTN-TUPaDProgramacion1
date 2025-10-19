@@ -101,5 +101,31 @@ al_menos_uno = parcial1 | parcial2
 print("Aprobaron al menos un parcial: ", al_menos_uno)
 
 
+print("Ejercicio 8\n")
 
+stock = {"pan" : 50, "leche": 30, "azucar": 20}
+
+producto = input("Ingrese el nombre del producto: ").lower()
+
+if producto in stock:
+    print(f"Stock actual de {producto}: {stock[producto]} unidades")
+
+
+    respuesta = input("Desea agregar unidades? (Si/No):").lower()
+    if respuesta == "si":
+        cantidad = int(input("Cuantas unidades desea agregar?: "))
+        stock[producto] += cantidad
+        print(f"Stock actualizado de {producto}: {stock[producto]} unidades")
+    
+else:
+    print("El pruducto no existe.")
+    respuesta = input("Desea agregarlo al inventario? (Si/No): ").lower()
+    if respuesta == "si":
+        cantidad = int(input("Ingrese cantidad inicial de stock: "))
+        stock[producto] = cantidad
+        print(f"{producto} fue agregado con {cantidad} unidades.")
+
+print("\n Stock Actualizado:")
+for nombre, cantidad in stock.items():
+    print(f"{nombre}: {cantidad} unidades")
 

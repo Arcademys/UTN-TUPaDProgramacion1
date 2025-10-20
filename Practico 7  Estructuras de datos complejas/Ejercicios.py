@@ -129,3 +129,30 @@ print("\n Stock Actualizado:")
 for nombre, cantidad in stock.items():
     print(f"{nombre}: {cantidad} unidades")
 
+
+    print("Ejercicio 9 \n")
+
+agenda = {("lunes", "10:00"): "Reunion", ("martes", "15:00"): "Clase de ingles"}
+
+dia = input("Ingrese el dia: ").lower()
+hora = input("Ingrese la hora (ejemplo: 10:00): ")
+
+clave = (dia, hora)
+
+if clave in agenda:
+    print("Actividad:", agenda[clave])
+else:
+    print("No hay actividades en ese horario.")
+
+
+print("Ejercicio 10 \n")
+
+original = {"Argentina": "Buenos Aires", "Chile":"Santiago"}
+
+invertido = {}
+
+for pais, capital in original.items():
+    invertido[capital] = pais
+
+print("Diccionario invertido: ",invertido)
+

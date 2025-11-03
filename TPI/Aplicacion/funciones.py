@@ -29,9 +29,15 @@ Notas:
                         
                                 #Cada pais debe tener las claves: nombre, poblacion, superfcie, continente.
 
-def guardar_csv(archivo, lista_paises): #Guarda la lista actualizada de paises en el archivo leer_csv
-    pass
-                                        
+def guardar_csv(paises_mundo_2023, lista_paises): #Guarda la lista actualizada de paises en el archivo leer_csv
+    campos = ["nombre", "iso_codigo", "poblacion", "anio_poblacion", "superficie_km2", "continente", "capital"]    
+    with open(paises_mundo_2023, "w", newline="", encoding="utf-8-sig") as f:
+        escritor = csv.DictWriter(f, fieldnames=campos)
+
+        escritor.writeheader() #Encabezado
+        # escrbir cada pais en fila
+        for pais in lista_paises:
+            escritor.writerow(pais)                                    
 
 """
 2. Gestion de paises ( altas y modificaciones)

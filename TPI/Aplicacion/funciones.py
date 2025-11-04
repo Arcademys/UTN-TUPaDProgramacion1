@@ -17,9 +17,9 @@ def leer_csv(paises_mundo_2023):
         lector = csv.DictReader(f)
         for fila in lector:
             if (
-                fila.get["nombre"]
-                and fila.get["poblacion"]
-                and fila.get["superficie_km2"]
+                fila.get("nombre")
+                and fila.get("poblacion")
+                and fila.get("superficie_km2")
             ):
                 fila["poblacion"] = int(fila["poblacion"])
                 fila["superficie"] = int(fila["superficie_km2"])
@@ -202,7 +202,7 @@ Devuelve una nueva lista ordenada por superficie.
 
 
 def pais_mayor_poblacion(lista_paises):
-    return f"Función {pais_mayor_poblacion()} ejecutada correctamente"
+    return f"Función pais_mayor_poblacion ejecutada correctamente"
 
 
 """
@@ -211,7 +211,7 @@ Devuelve el país con mayor población.
 
 
 def pais_menor_poblacion(lista_paises):
-    return f"Función {pais_menor_poblacion()} ejecutada correctamente"
+    return f"Función pais_menor_poblacion ejecutada correctamente"
 
 
 """
@@ -220,7 +220,7 @@ Devuelve el país con menor población.
 
 
 def promedio_poblacion(lista_paises):
-    return f"Función {promedio_poblacion()} ejecutada correctamente"
+    return "Función promedio_poblacion ejecutada correctamente"
 
 
 """
@@ -229,7 +229,7 @@ Devuelve el promedio de población.
 
 
 def promedio_superficie(lista_paises):
-    return f"Función {promedio_superficie()} ejecutada correctamente"
+    return "Función promedio_superficie ejecutada correctamente"
 
 
 """
@@ -238,7 +238,7 @@ Devuelve el promedio de superficie.
 
 
 def cantidad_por_continente(lista_paises):
-    return f"Función {cantidad_por_continente()} ejecutada correctamente"
+    return f"Función cantidad_por_continente ejecutada correctamente"
 
 
 """
@@ -251,7 +251,7 @@ Ejemplo: {"América": 5, "Europa": 3, ...}
 
 
 def validar_entero(valor):
-    return f"Función {validar_entero()} ejecutada correctamente"
+    return f"Función validar_entero ejecutada correctamente"
 
 
 """
@@ -261,7 +261,7 @@ Devuelve True o False.
 
 
 def validar_no_vacio(texto):
-    return f"Función {validar_no_vacio()} ejecutada correctamente"
+    return f"Función validar_no_vacio ejecutada correctamente"
 
 
 """

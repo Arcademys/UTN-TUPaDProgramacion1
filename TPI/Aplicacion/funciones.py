@@ -22,7 +22,7 @@ def leer_csv(paises_mundo_2023):
                 and fila.get("superficie_km2")
             ):
                 fila["poblacion"] = int(fila["poblacion"])
-                fila["superficie"] = int(fila["superficie_km2"])
+                fila["superficie_km2"] = int(fila["superficie_km2"])
                 paises.append(fila)
         return paises
 

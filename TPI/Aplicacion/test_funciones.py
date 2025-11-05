@@ -31,7 +31,3 @@ print(
 # Test ordenamientos
 ordenados = ordenar_por_nombre(paises)
 print("llega ordenar_por_nombre:", [p["nombre"] for p in ordenados[:5]])
-
-# Test funciones aún sin implementar (comunicación)
-print(pais_mayor_poblacion(paises))
-print(promedio_poblacion(paises))

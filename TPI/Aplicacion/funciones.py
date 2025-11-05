@@ -5,6 +5,7 @@ import os.path  # chequear la existencia
 1. Gestion de archivos
 """
 
+
 def leer_csv(paises_mundo_2023):
     paises = []
     if not os.path.exists(paises_mundo_2023):
@@ -205,6 +206,7 @@ def pais_mayor_poblacion(lista_paises):
             mayor = pais
     return mayor
 
+
 def pais_menor_poblacion(lista_paises):
     """
     Devuelve el país con menor población.
@@ -218,7 +220,8 @@ def pais_menor_poblacion(lista_paises):
             menor = pais
     return menor
 
-ddef promedio_poblacion(lista_paises):
+
+def promedio_poblacion(lista_paises):
     """
     Calcula el promedio de población de todos los países.
     """
@@ -230,6 +233,7 @@ ddef promedio_poblacion(lista_paises):
         suma += pais["poblacion"]
 
     return suma / len(lista_paises)
+
 
 def promedio_superficie(lista_paises):
     """
@@ -244,6 +248,7 @@ def promedio_superficie(lista_paises):
 
     return suma / len(lista_paises)
 
+
 def cantidad_por_continente(lista_paises):
     """
     Devuelve un diccionario con la cantidad de países por continente.
@@ -256,6 +261,7 @@ def cantidad_por_continente(lista_paises):
         else:
             conteo[cont] += 1
     return conteo
+
 
 # 6. VALIDACIONES (opcional)
 

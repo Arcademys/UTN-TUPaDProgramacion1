@@ -193,50 +193,69 @@ Devuelve una nueva lista ordenada por superficie.
 
 
 def pais_mayor_poblacion(lista_paises):
-    return f"Función pais_mayor_poblacion ejecutada correctamente"
+    """
+    Devuelve el país con mayor población.
+    """
+    if not lista_paises:
+        return None
 
-
-"""
-Devuelve el país con mayor población.
-"""
-
+    mayor = lista_paises[0]
+    for pais in lista_paises:
+        if pais["poblacion"] > mayor["poblacion"]:
+            mayor = pais
+    return mayor
 
 def pais_menor_poblacion(lista_paises):
-    return f"Función pais_menor_poblacion ejecutada correctamente"
+    """
+    Devuelve el país con menor población.
+    """
+    if not lista_paises:
+        return None
 
+    menor = lista_paises[0]
+    for pais in lista_paises:
+        if pais["poblacion"] < menor["poblacion"]:
+            menor = pais
+    return menor
 
-"""
-Devuelve el país con menor población.
-"""
+ddef promedio_poblacion(lista_paises):
+    """
+    Calcula el promedio de población de todos los países.
+    """
+    if not lista_paises:
+        return 0
 
+    suma = 0
+    for pais in lista_paises:
+        suma += pais["poblacion"]
 
-def promedio_poblacion(lista_paises):
-    return "Función promedio_poblacion ejecutada correctamente"
-
-
-"""
-Devuelve el promedio de población.
-"""
-
+    return suma / len(lista_paises)
 
 def promedio_superficie(lista_paises):
-    return "Función promedio_superficie ejecutada correctamente"
+    """
+    Calcula el promedio de superficie de todos los países.
+    """
+    if not lista_paises:
+        return 0
 
+    suma = 0
+    for pais in lista_paises:
+        suma += pais["superficie_km2"]
 
-"""
-Devuelve el promedio de superficie.
-"""
-
+    return suma / len(lista_paises)
 
 def cantidad_por_continente(lista_paises):
-    return f"Función cantidad_por_continente ejecutada correctamente"
-
-
-"""
-Devuelve un diccionario con la cantidad de países por continente.
-Ejemplo: {"América": 5, "Europa": 3, ...}
-"""
-
+    """
+    Devuelve un diccionario con la cantidad de países por continente.
+    """
+    conteo = {}
+    for pais in lista_paises:
+        cont = pais["continente"]
+        if cont not in conteo:
+            conteo[cont] = 1
+        else:
+            conteo[cont] += 1
+    return conteo
 
 # 6. VALIDACIONES (opcional)
 

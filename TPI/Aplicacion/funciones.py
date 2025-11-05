@@ -5,7 +5,6 @@ import os.path  # chequear la existencia
 1. Gestion de archivos
 """
 
-
 def leer_csv(paises_mundo_2023):
     paises = []
     if not os.path.exists(paises_mundo_2023):

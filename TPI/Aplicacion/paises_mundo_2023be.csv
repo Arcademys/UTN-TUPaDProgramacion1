@@ -1,0 +1,31 @@
+nombre,iso_codigo,poblacion,anio_poblacion,superficie_km2,continente,capital
+Argentina,ARG,46044703,2023,2780400,América del Sur,Buenos Aires
+Brasil,BRA,213993437,2023,8515767,América del Sur,Brasilia
+Chile,CHL,19107216,2023,756102,América del Sur,Santiago
+Colombia,COL,51874024,2023,1141748,América del Sur,Bogotá
+México,MEX,126705138,2023,1964375,América del Norte,Ciudad de México
+Estados Unidos,USA,339996563,2023,9833517,América del Norte,Washington D. C.
+Canadá,CAN,38929902,2023,9984670,América del Norte,Ottawa
+España,ESP,47450795,2023,505992,Europa,Madrid
+Francia,FRA,65327626,2023,551695,Europa,París
+Alemania,DEU,83294633,2023,357022,Europa,Berlín
+Italia,ITA,58870762,2023,301340,Europa,Roma
+Reino Unido,GBR,67886011,2023,243610,Europa,Londres
+Rusia,RUS,143895551,2023,17098242,Europa/Asia,Moscú
+China,CHN,1411750000,2023,9596961,Asia,Pekín
+India,IND,1428627663,2023,3287263,Asia,Nueva Delhi
+Japón,JPN,123294513,2023,377975,Asia,Tokio
+Corea del Sur,KOR,51784059,2023,100210,Asia,Seúl
+Australia,AUS,26068792,2023,7692024,Oceanía,Canberra
+Nueva Zelanda,NZL,5122600,2023,268021,Oceanía,Wellington
+Sudáfrica,ZAF,60414495,2023,1221037,África,Pretoria
+Egipto,EGY,112716598,2023,1002450,África,El Cairo
+Nigeria,NGA,223804632,2023,923768,África,Abuya
+Etiopía,ETH,126527060,2023,1104300,África,Addis Abeba
+Arabia Saudita,SAU,36227681,2023,2149690,Asia,Riad
+Turquía,TUR,86567859,2023,783562,Asia/Europa,Ankara
+Indonesia,IDN,277534123,2023,1904569,Asia,Yakarta
+Filipinas,PHL,117337368,2023,300000,Asia,Manila
+Vietnam,VNM,98186856,2023,331212,Asia,Hanói
+Irán,IRN,89277600,2023,1648195,Asia,Teherán
+Pakistán,PAK,240485658,2023,881913,Asia,Islamabad

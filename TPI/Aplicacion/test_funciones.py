@@ -1,6 +1,6 @@
 from funciones import *
 
-ruta = "datos/paises_mundo_2023.csv"
+ruta = "/home/arcademys/Documents/Repositorios/UTN-TUPaDProgramacion1/TPI/Aplicacion/paises_mundo_2023.csv"
 
 # Cargar países
 paises = leer_csv(ruta)

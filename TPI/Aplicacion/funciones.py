@@ -24,7 +24,7 @@ def leer_csv(paises_mundo_2023):
                 fila["poblacion"] = int(fila["poblacion"])
                 fila["superficie_km2"] = int(fila["superficie_km2"])
                 paises.append(fila)
-        return paises
+    return paises
 
 
 """
@@ -42,15 +42,7 @@ Notas:
 def guardar_csv(
     paises_mundo_2023, lista_paises
 ):  # Guarda la lista actualizada de paises en el archivo leer_csv
-    campos = [
-        "nombre",
-        "iso_codigo",
-        "poblacion",
-        "anio_poblacion",
-        "superficie_km2",
-        "continente",
-        "capital",
-    ]
+    campos = ["nombre", "poblacion", "superficie_km2", "continente"]
     with open(paises_mundo_2023, "w", newline="", encoding="utf-8-sig") as f:
         escritor = csv.DictWriter(f, fieldnames=campos)
 

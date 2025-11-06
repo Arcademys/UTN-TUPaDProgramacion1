@@ -1,4 +1,4 @@
-from TPI.Aplicacion.funciones import *
+from funciones import *
 
 def mostrar_menu():
     """
@@ -100,11 +100,10 @@ def opcion_2_filtrar_paises(paises):
             resultados = filtrar_por_rango_superficie(paises, min_sup, max_sup)
             
             mostrar_paises(resultados)
-
+            
         elif sub_opcion == "D":
             print("Volviendo al menú principal...")
             break 
-
         else:
             print("Error: Opción no válida. Intente de nuevo (A-D).")
 
@@ -187,8 +186,8 @@ def opcion_4_mostrar_estadisticas(paises):
 
     print("\n--- Estadísticas de Superficie ---")
     print(f"Promedio de superficie: {prom_sup}")
-
     print("\n--- Conteo por Continente ---")
+
     if isinstance(conteo_continentes, dict):
         for continente, cantidad in conteo_continentes.items():
             print(f"  - {continente}: {cantidad} país(es)")
@@ -200,8 +199,8 @@ def main():
     Función principal del programa.
     Carga los datos e inicia el bucle principal del menú.
     """
-    # Esta es la ruta correcta al CSV
-    ruta_del_archivo = 'TPI/Aplicacion/paises_mundo_2023.csv' 
+    
+    ruta_del_archivo = 'TPI/Aplicacion/paises_mundo_2023.csv'
     
     lista_paises = leer_csv(ruta_del_archivo) 
     
@@ -235,8 +234,7 @@ def main():
             
         elif opcion_usuario == "5":
             print("\n¡Gracias por usar el sistema! Saliendo...")
-            break 
-            
+            break   
         else:
             # Validación de menú principal (consigna 3)
             print("\nError: Opción no válida.")

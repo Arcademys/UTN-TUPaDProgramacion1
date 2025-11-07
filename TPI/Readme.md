@@ -1,11 +1,13 @@
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Estado-Completado-success)
+![License](https://img.shields.io/badge/Licencia-Acad%C3%A9mica-lightgrey)
+-----------
 # 🌎 [Sistema de Gestión de Países](./Aplicacion) 
 
 > Proyecto académico para la materia **Programación I - UTN**  
 > Aplicación modular en Python que gestiona información de países mediante un archivo CSV.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Estado-Completado-success)
-![License](https://img.shields.io/badge/Licencia-Acad%C3%A9mica-lightgrey)
+
 
 
 ## 👥 Participación de los integrantes

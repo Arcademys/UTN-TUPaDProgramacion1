@@ -14,10 +14,10 @@
 - **Módulos:** CSV, OS
 
 ## Tabla de Contenidos
-- [Descripcion](#-descripcion)
+- [Descripcion](#descripcion)
 - [Instrucciones de uso](./Aplicacion)
 - [Diagrama de flujo](#diagrama-de-flujo)
-- [Participacion de los integrantes](#-participacion-de-los-integrantes)
+- [Participacion de los integrantes](#participacion-de-los-integrantes)
 
 
 

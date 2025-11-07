@@ -1,19 +1,34 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Estado-Completado-success)
 ![License](https://img.shields.io/badge/Licencia-Acad%C3%A9mica-lightgrey)
------------
-# 🌎 [Sistema de Gestión de Países](./Aplicacion) 
 
 > Proyecto académico para la materia **Programación I - UTN**  
 > Aplicación modular en Python que gestiona información de países mediante un archivo CSV.
 
+## 🛠️ Tecnologías y conceptos aplicados
+
+- **Estructuras:** Listas y Diccionarios
+- **Persistencia de datos:** Archivos CSV
+- **Paradigma:** Programación estructurada
+- **Validaciones:** Control de entrada de usuario
+- **Módulos:** CSV, OS
+
+## 📑 Tabla de Contenidos
+- [Descripción](#-descripción)
+- [Instrucciones de uso](./Aplicacion)
+- [Diagrama de flujo](#-diagrama-de-flujo)
+- [Participación de los integrantes](#-participación-de-los-integrantes)
 
 
 
-## 👥 Participación de los integrantes
+# 🌎 [Sistema de Gestión de Países] 
 
-- [**Juan José**](https://www.linkedin.com/in/juan-jose-benitez-539298123/): Desarrollo de funciones principales, manejo de archivos CSV, filtrado, ordenamiento y estadísticas.
-- **Enrique**: Implementación del menú principal, validaciones de entrada, interfaz por consola y conexión entre módulos.
+
+
+
+
+
+
 
 
 ------------
@@ -67,3 +82,15 @@ flowchart TD
 
 ```
 ------------
+
+## 👥 Participación de los integrantes
+
+- [**Juan José**](https://www.linkedin.com/in/juan-jose-benitez-539298123/): Desarrollo de funciones principales, manejo de archivos CSV, filtrado, ordenamiento y estadísticas.
+- **Enrique**: Implementación del menú principal, validaciones de entrada, interfaz por consola y conexión entre módulos.
+
+
+
+
+
+
+🧾 *Proyecto realizado para la materia Programación I (UTN 2025).*

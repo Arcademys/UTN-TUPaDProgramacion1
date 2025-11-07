@@ -16,7 +16,7 @@
 ## Tabla de Contenidos
 - [Descripcion](#-descripcion)
 - [Instrucciones de uso](./Aplicacion)
-- [Diagrama de flujo](#-Diagrama-de-flujo)
+- [Diagrama de flujo](TPI#diagrama-de-flujo)
 - [Participacion de los integrantes](#-participacion-de-los-integrantes)
 
 

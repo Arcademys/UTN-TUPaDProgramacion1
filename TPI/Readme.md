@@ -5,7 +5,7 @@
 > Proyecto académico para la materia **Programación I - UTN**  
 > Aplicación modular en Python que gestiona información de países mediante un archivo CSV.
 
-## 🛠️ Tecnologías y conceptos aplicados
+## Tecnologías y conceptos aplicados
 
 - **Estructuras:** Listas y Diccionarios
 - **Persistencia de datos:** Archivos CSV
@@ -13,7 +13,7 @@
 - **Validaciones:** Control de entrada de usuario
 - **Módulos:** CSV, OS
 
-## 📑 Tabla de Contenidos
+## Tabla de Contenidos
 - [Descripción](#-descripción)
 - [Instrucciones de uso](./Aplicacion)
 - [Diagrama de flujo](#-diagrama-de-flujo)
@@ -21,8 +21,12 @@
 
 
 
-# 🌎 [Sistema de Gestión de Países] 
 
+## Descripción 
+Este programa permite gestionar información de países mediante una interfaz de consola.  
+Permite leer los datos desde un archivo CSV, buscar, filtrar, ordenar y calcular estadísticas básicas como población promedio o país con mayor superficie.  
+
+El sistema utiliza estructuras de datos como listas y diccionarios, y organiza el código mediante funciones modulares.
 
 
 
@@ -32,7 +36,8 @@
 
 
 ------------
-# Diagrama de flujo
+
+## Diagrama de flujo
 
 
 
@@ -83,14 +88,14 @@ flowchart TD
 ```
 ------------
 
-## 👥 Participación de los integrantes
+## Participación de los integrantes
 
 - [**Juan José**](https://www.linkedin.com/in/juan-jose-benitez-539298123/): Desarrollo de funciones principales, manejo de archivos CSV, filtrado, ordenamiento y estadísticas.
 - **Enrique**: Implementación del menú principal, validaciones de entrada, interfaz por consola y conexión entre módulos.
+------------
 
 
 
 
 
-
-🧾 *Proyecto realizado para la materia Programación I (UTN 2025).*
+*Proyecto realizado para la materia Programación I (UTN 2025).*

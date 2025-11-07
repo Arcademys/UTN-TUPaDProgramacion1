@@ -8,7 +8,7 @@
 
 
 
-# 🌎 Sistema de Gestión de Países 
+# 🌎 [Sistema de Gestión de Países](./Aplicacion) 
 
 Este programa permite gestionar información de países mediante una interfaz de consola.  
 Permite leer los datos desde un archivo CSV, buscar, filtrar, ordenar y calcular estadísticas básicas como población promedio o país con mayor superficie.  
@@ -17,7 +17,7 @@ El sistema utiliza estructuras de datos como listas y diccionarios, y organiza e
 
 ## 👥 Participación de los integrantes
 
-- **Juan José**: Desarrollo de funciones principales, manejo de archivos CSV, filtrado, ordenamiento y estadísticas.
+- [**Juan José**](https://www.linkedin.com/in/juan-jose-benitez-539298123/): Desarrollo de funciones principales, manejo de archivos CSV, filtrado, ordenamiento y estadísticas.
 - **Enrique**: Implementación del menú principal, validaciones de entrada, interfaz por consola y conexión entre módulos.
 
 

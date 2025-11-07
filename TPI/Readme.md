@@ -1,19 +1,12 @@
-
-
-
-
-
-
-
-
-
-
 # 🌎 [Sistema de Gestión de Países](./Aplicacion) 
 
-Este programa permite gestionar información de países mediante una interfaz de consola.  
-Permite leer los datos desde un archivo CSV, buscar, filtrar, ordenar y calcular estadísticas básicas como población promedio o país con mayor superficie.  
+> Proyecto académico para la materia **Programación I - UTN**  
+> Aplicación modular en Python que gestiona información de países mediante un archivo CSV.
 
-El sistema utiliza estructuras de datos como listas y diccionarios, y organiza el código mediante funciones modulares.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Estado-Completado-success)
+![License](https://img.shields.io/badge/Licencia-Acad%C3%A9mica-lightgrey)
+
 
 ## 👥 Participación de los integrantes
 

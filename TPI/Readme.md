@@ -14,15 +14,15 @@
 - **Módulos:** CSV, OS
 
 ## Tabla de Contenidos
-- [Descripción](#-descripción)
+- [Descripcion](#-descripcion)
 - [Instrucciones de uso](./Aplicacion)
-- [Diagrama de flujo](#-diagrama-de-flujo)
-- [Participación de los integrantes](#-participación-de-los-integrantes)
+- [Diagrama de flujo](#-Diagrama-de-flujo)
+- [Participacion de los integrantes](#-participacion-de-los-integrantes)
 
 
 
 
-## Descripción 
+## [Descripcion](#descrpcion)
 Este programa permite gestionar información de países mediante una interfaz de consola.  
 Permite leer los datos desde un archivo CSV, buscar, filtrar, ordenar y calcular estadísticas básicas como población promedio o país con mayor superficie.  
 
@@ -37,7 +37,7 @@ El sistema utiliza estructuras de datos como listas y diccionarios, y organiza e
 
 ------------
 
-## Diagrama de flujo
+## [Diagrama de flujo](#-Diagrama-de-flujo)
 
 
 
@@ -88,7 +88,7 @@ flowchart TD
 ```
 ------------
 
-## Participación de los integrantes
+## [Participacion de los integrantes](#-participacion-de-los-integrantes)
 
 - [**Juan José**](https://www.linkedin.com/in/juan-jose-benitez-539298123/): Desarrollo de funciones principales, manejo de archivos CSV, filtrado, ordenamiento y estadísticas.
 - **Enrique**: Implementación del menú principal, validaciones de entrada, interfaz por consola y conexión entre módulos.

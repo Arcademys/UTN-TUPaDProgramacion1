@@ -35,7 +35,7 @@ Para ejecutar este proyecto, sigue estos pasos:
 ## 🧭 Funcionalidades
 
 ### 🧭 Menu Principal
-![Menu Principal](Menu%20Principal.jpg)
+![Menu_Principal](Menu_Principal.jpg)
 
 ### 1. Buscar País
 Permite buscar un país por su nombre exacto o parcial.

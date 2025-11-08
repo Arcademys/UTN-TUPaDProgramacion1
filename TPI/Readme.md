@@ -4,7 +4,11 @@
 
 Este proyecto es un sistema de consola desarrollado en Python que permite gestionar, filtrar, ordenar y analizar datos de países cargados desde un archivo CSV.
 
----
+- **Estructuras:** Listas y Diccionarios
+- **Persistencia de datos:** Archivos CSV
+- **Paradigma:** Programación estructurada
+- **Validaciones:** Control de entrada de usuario
+- **Módulos:** CSV, 
 
 ## Diagrama de Flujo
 A continuación, se presenta el flujo principal de la aplicación:

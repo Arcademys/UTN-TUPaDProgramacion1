@@ -48,7 +48,7 @@ Sub-menú para filtrar la lista completa por:
 * **Rango de Población** (mínimo y máximo)
 * **Rango de Superficie** (mínimo y máximo)
 
-![Ejemplo de Filtro](/Imagenes/Filtro.jpg)
+![Ejemplo de Filtro](Imagenes/Filtro.jpg)
 
 ### 3. Ordenar Lista
 Permite reordenar los países ascendente o descendentemente por:

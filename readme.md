@@ -34,14 +34,14 @@ Para ejecutar este proyecto, sigue estos pasos:
 
 ## 🧭 Funcionalidades
 
-### 🧭 Menú Principal
-![Menú Principal](Menú%20Principal.jpg)
+### 🧭 Menu Principal
+![Menu Principal](Menu%20Principal.jpg)
 
 ### 1. Buscar País
 Permite buscar un país por su nombre exacto o parcial.
 *(Ejemplo: Buscar "arg" encuentra "Argentina").*
 
-![Ejemplo de Búsqueda](Búsqueda.jpg)
+![Ejemplo de Busqueda](Busqueda.jpg)
 
 ### 2. Filtrar Países
 Sub-menú para filtrar la lista completa por:
@@ -63,7 +63,7 @@ Muestra cálculos automáticos sobre los datos actuales:
 * Promedios de población y superficie.
 * Cantidad de países por continente.
 
-![Ejemplo de Estadísticas](Estadísticas.jpg)
+![Ejemplo de Estadisticas](Estadisticas.jpg)
 
 ---
 

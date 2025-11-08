@@ -11,7 +11,7 @@
 - **Persistencia de datos:** Archivos CSV
 - **Paradigma:** Programación estructurada
 - **Validaciones:** Control de entrada de usuario
-- **Módulos:** CSV, OS
+- **Módulos:** CSV, 
 
 ## Tabla de Contenidos
 - [Descripcion](#descripcion)

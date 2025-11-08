@@ -9,7 +9,7 @@ Este proyecto es un sistema de consola desarrollado en Python que permite gestio
 ## 📊 Diagrama de Flujo
 A continuación, se presenta el flujo principal de la aplicación:
 
-![Diagrama de Flujo](diagrama.png)
+![Diagrama de Flujo](Imagenes/diagrama.png)
 
 ---
 
@@ -29,19 +29,18 @@ Para ejecutar este proyecto, sigue estos pasos:
     ```bash
     python sistema_gestion_países.py
     ```
-
 ---
 
 ## 🧭 Funcionalidades
 
 ### 🧭 Menu Principal
-![Menu_Principal](Menu_Principal.jpg)
+![Menu_Principal](Imagenes/Menu_Principal.jpg)
 
 ### 1. Buscar País
 Permite buscar un país por su nombre exacto o parcial.
 *(Ejemplo: Buscar "arg" encuentra "Argentina").*
 
-![Ejemplo de Busqueda](Busqueda.jpg)
+![Ejemplo de Busqueda](Imagenes/Busqueda.jpg)
 
 ### 2. Filtrar Países
 Sub-menú para filtrar la lista completa por:
@@ -49,7 +48,7 @@ Sub-menú para filtrar la lista completa por:
 * **Rango de Población** (mínimo y máximo)
 * **Rango de Superficie** (mínimo y máximo)
 
-![Ejemplo de Filtro](Filtro.jpg)
+![Ejemplo de Filtro](/Imagenes/Filtro.jpg)
 
 ### 3. Ordenar Lista
 Permite reordenar los países ascendente o descendentemente por:
@@ -63,7 +62,7 @@ Muestra cálculos automáticos sobre los datos actuales:
 * Promedios de población y superficie.
 * Cantidad de países por continente.
 
-![Ejemplo de Estadisticas](Estadisticas.jpg)
+![Ejemplo de Estadisticas](Imagenes/Estadisticas.jpg)
 
 ---
 

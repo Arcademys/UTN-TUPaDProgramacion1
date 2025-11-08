@@ -1,4 +1,4 @@
-# 🌎 Sistema de Gestión de Países
+# 🌎 Sistema de Gestión de Países.
 **Trabajo Práctico Integrador (TPI) - Programación 1**
 
 Este proyecto es un sistema de consola desarrollado en Python que permite gestionar, filtrar, ordenar y analizar datos de países cargados desde un archivo CSV.

@@ -33,14 +33,14 @@ Para ejecutar este proyecto, sigue estos pasos:
 
 ## 🧭 Funcionalidades
 
-### 🧭 Menu Principal
-![Menu_Principal](Imagenes/Menu_Principal.jpg)
+### 🧭 menú principal
+![menú principal](imágenes/menú_principal.jpg)
 
 ### 1. Buscar País
 Permite buscar un país por su nombre exacto o parcial.
 *(Ejemplo: Buscar "arg" encuentra "Argentina").*
 
-![Ejemplo de Busqueda](Imagenes/Busqueda.jpg)
+![Ejemplo de búsqueda](imágenes/búsqueda.jpg)
 
 ### 2. Filtrar Países
 Sub-menú para filtrar la lista completa por:
@@ -48,22 +48,13 @@ Sub-menú para filtrar la lista completa por:
 * **Rango de Población** (mínimo y máximo)
 * **Rango de Superficie** (mínimo y máximo)
 
-![Ejemplo de Filtro](Imagenes/Filtro.jpg)
-
-### 3. Ordenar Lista
-Permite reordenar los países ascendente o descendentemente por:
-* Nombre
-* Población
-* Superficie
+![Ejemplo de filtro](imágenes/filtro.jpg)
 
 ### 4. Estadísticas
 Muestra cálculos automáticos sobre los datos actuales:
-* País con mayor/menor población.
-* Promedios de población y superficie.
-* Cantidad de países por continente.
+*(...)*
 
-![Ejemplo de Estadisticas](Imagenes/Estadisticas.jpg)
-
+![Ejemplo de estadísticas](imágenes/estadísticas.jpg)
 ---
 
 ## 👥 Integrantes y Roles

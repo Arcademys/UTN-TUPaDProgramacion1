@@ -18,6 +18,7 @@ Este proyecto es un sistema de consola desarrollado en Python que permite gestio
 - **Paradigma:** Programación estructurada
 - **Validaciones:** Control de entrada de usuario
 - **Módulos:** CSV, OS
+- **Fuente bibliográfica:** CURSO INTENSIVO DE PYTHON 3ªEDICIÓN Introducción práctica a la programación basada en proyectos Eric Matthes (Editorial Anaya MULTIMEDIA)
 
 **Tabla de Contenidos**
 - [Diagrama de flujo](#diagrama-de-flujo)

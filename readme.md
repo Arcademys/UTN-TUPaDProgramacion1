@@ -8,7 +8,7 @@ Este proyecto es un sistema de consola desarrollado en Python que permite gestio
 ## 📊 Diagrama de Flujo
 A continuación, se presenta el flujo principal de la aplicación:
 
-![Diagrama de Flujo ](imagenes/diagrama.png)
+![Diagrama de Flujo ](diagrama.png)
 
 ---
 
@@ -34,13 +34,13 @@ Para ejecutar este proyecto, sigue estos pasos:
 ## 🧭 Funcionalidades
 
 ### 🧭 Menú Principal
-![Menú Principal](imagenes/menu_principal.jpg)
+![Menú Principal](menu_principal.jpg)
 
 ### 1. Buscar País
 Permite buscar un país por su nombre exacto o parcial.
 *(Ejemplo: Buscar "arg" encuentra "Argentina").*
 
-![Ejemplo de Búsqueda](imagenes/busqueda.jpg)
+![Ejemplo de Búsqueda](busqueda.jpg)
 
 ### 2. Filtrar Países
 Sub-menú para filtrar la lista completa por:
@@ -48,7 +48,7 @@ Sub-menú para filtrar la lista completa por:
 * **Rango de Población** (mínimo y máximo)
 * **Rango de Superficie** (mínimo y máximo)
 
-![Ejemplo de Filtro](imagenes/filtro.jpg)
+![Ejemplo de Filtro](filtro.jpg)
 
 ### 3. Ordenar Lista
 Permite reordenar los países ascendente o descendentemente por:
@@ -62,7 +62,7 @@ Muestra cálculos automáticos sobre los datos actuales:
 * Promedios de población y superficie.
 * Cantidad de países por continente.
 
-![Ejemplo de Estadísticas](imagenes/estadisticas.jpg)
+![Ejemplo de Estadísticas](estadisticas.jpg)
 
 ---
 

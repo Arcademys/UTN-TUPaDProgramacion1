@@ -88,7 +88,7 @@ El sistema utiliza estructuras de datos como listas y diccionarios, y organiza e
 
 ---
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 
 Para ejecutar este proyecto, sigue estos pasos:
 
@@ -107,9 +107,9 @@ Para ejecutar este proyecto, sigue estos pasos:
 
 ---
 
-## 🧭 Funcionalidades
+## Funcionalidades
 
-### 🧭 Menú Principal
+###  Menú Principal
 ![Menú Principal](menu_principal.jpg)
 
 ### 1. Buscar País
@@ -142,7 +142,7 @@ Muestra cálculos automáticos sobre los datos actuales:
 
 ---
 
-## 👥 Integrantes y Roles
+##  Integrantes y Roles
 
 * **Enrique Alejandro Carrasco:** Desarrollo de la interfaz de terminal (menús, validaciones, interacción con el usuario).
 * **Juan José Benitez:** Desarrollo del archivo `funciones.py`, manejo de archivos CSV, filtrado, ordenamiento y estadísticas.

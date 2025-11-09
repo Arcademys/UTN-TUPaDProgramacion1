@@ -1,8 +1,11 @@
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Estado-Completado-success)
-![License](https://img.shields.io/badge/Licencia-Acad%C3%A9mica-lightgrey)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python Badge">
+  <img src="https://img.shields.io/badge/Estado-Completado-success" alt="Estado Badge">
+  <img src="https://img.shields.io/badge/Licencia-Académica-lightgrey" alt="Licencia Badge">
+</p>
 
-# 🌎 Sistema de Gestión de Países.
+<h1 align="center"> Sistema de Gestión de Países</h1>
+
 **Trabajo Práctico Integrador (TPI) - Programación 1**
 
 Este proyecto es un sistema de consola desarrollado en Python que permite gestionar, filtrar, ordenar y analizar datos de países cargados desde un archivo CSV.

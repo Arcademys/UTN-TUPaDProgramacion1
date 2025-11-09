@@ -105,20 +105,22 @@ Para ejecutar este proyecto, sigue estos pasos:
     python sistema_gestion_países.py
     ```
 
+O descarga de forma directa el proyecto completo, podés descargar todos los archivos necesarios ( `funciones.py`, `sistema_gestion_paises.py` y `paises_mundo_2023.csv`) en un solo paquete comprimido desde el siguiente enlace: [Descargar Proyecto Completo .rar](https://github.com/Arcademys/UTN-TUPaDProgramacion1/raw/refs/heads/main/TPI/Aplicacion/Proyecto_completo.rar)
+
 ---
 
 ## Funcionalidades
 
-###  Menú Principal
+**Menú Principal**
 ![Menú Principal](menu_principal.jpg)
 
-### 1. Buscar País
+**1. Buscar País**
 Permite buscar un país por su nombre exacto o parcial.
 *(Ejemplo: Buscar "arg" encuentra "Argentina").*
 
 ![Ejemplo de Búsqueda](busqueda.jpg)
 
-### 2. Filtrar Países
+**2. Filtrar Países**
 Sub-menú para filtrar la lista completa por:
 * **Continente** (ej. "América del Sur")
 * **Rango de Población** (mínimo y máximo)
@@ -126,13 +128,13 @@ Sub-menú para filtrar la lista completa por:
 
 ![Ejemplo de Filtro](filtro.jpg)
 
-### 3. Ordenar Lista
+**3. Ordenar Lista**
 Permite reordenar los países ascendente o descendentemente por:
 * Nombre
 * Población
 * Superficie
 
-### 4. Estadísticas
+**4. Estadísticas**
 Muestra cálculos automáticos sobre los datos actuales:
 * País con mayor/menor población.
 * Promedios de población y superficie.

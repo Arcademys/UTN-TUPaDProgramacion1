@@ -23,7 +23,7 @@ Este proyecto es un sistema de consola desarrollado en Python que permite gestio
 **Tabla de Contenidos**
 - [Diagrama de flujo](#diagrama-de-flujo)
 - [Descripcion](#descripcion)
-- [Instrucciones de uso](#instalacion)
+- [Instrucciones de uso ](#instalacion)
 - [Participacion de los integrantes](#instalacion-y-ejecucion)
 - [Descarga del proyecto](https://github.com/Arcademys/UTN-TUPaDProgramacion1/raw/refs/heads/main/TPI/Aplicacion/Proyecto_completo.rar)
 ---

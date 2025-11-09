@@ -22,7 +22,7 @@ Este proyecto es un sistema de consola desarrollado en Python que permite gestio
 **Tabla de Contenidos**
 - [Diagrama de flujo](#diagrama-de-flujo)
 - [Descripcion](#descripcion)
-- [Instrucciones de uso](./Aplicacion)
+- [Instrucciones de uso](#-funcionalidades)
 - [Participacion de los integrantes](#participacion-de-los-integrantes)
 - [Descarga del proyecto](./)
 ---
@@ -144,4 +144,8 @@ Muestra cálculos automáticos sobre los datos actuales:
 ## 👥 Integrantes y Roles
 
 * **Enrique Alejandro Carrasco:** Desarrollo de la interfaz de terminal (menús, validaciones, interacción con el usuario).
-* **Juan José [Apellido]:** Desarrollo de la lógica de negocio (carga de datos, funciones de filtrado, ordenamiento y cálculos).
+* **Juan José Benitez:** Desarrollo del archivo `funciones.py`, manejo de archivos CSV, filtrado, ordenamiento y estadísticas.
+
+---
+
+<h6 align="center"> *Proyecto realizado para la materia Programación I (UTN 2025).*</h6>

@@ -8,7 +8,7 @@ Este proyecto es un sistema de consola desarrollado en Python que permite gestio
 ## 📊 Diagrama de Flujo
 A continuación, se presenta el flujo principal de la aplicación:
 
-![Diagrama de Flujo ](diagrama.png)
+![Diagrama de Flujo](diagrama.png)
 
 ---
 

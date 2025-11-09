@@ -81,10 +81,9 @@ flowchart TD
 ---
 
 ## [Descripcion](#descrpcion)
-Este programa permite gestionar información de países mediante una interfaz de consola.  
-Permite leer los datos desde un archivo CSV, buscar, filtrar, ordenar y calcular estadísticas básicas como población promedio o país con mayor superficie.  
+El presente Trabajo Práctico Integrador (TPI) consiste en el desarrollo de una aplicación de consola en Python diseñada para la gestión y análisis de datos geográficos y demográficos. El objetivo principal del proyecto fue crear un sistema capaz de leer una base de datos externa (en formato CSV) y ofrecer al usuario una interfaz interactiva para explorar esa información.
+A través de un menú de opciones, el sistema permite realizar búsquedas específicas de países, aplicar filtros por diversos criterios (continente, población, superficie), ordenar los resultados y visualizar estadísticas globales. Este proyecto nos permitió integrar y aplicar los conceptos fundamentales de la estructura de programación, tales como el manejo de estructuras de datos complejas (listas de diccionarios), la modularización mediante funciones y el uso de control de flujo para la interacción con el usuario.
 
-El sistema utiliza estructuras de datos como listas y diccionarios, y organiza el código mediante funciones modulares.
 
 ---
 

@@ -151,4 +151,9 @@ Muestra cálculos automáticos sobre los datos actuales:
 
 ---
 
+Tuve una muy buena experiencia trabajando en este TPI. Nos dividimos las tareas en dos partes: yo me encargué del manejo de datos y el archivo README lo realizamos entre ambos.
+Tuvimos algunos inconvenientes al subir actualizaciones al GitHub, pero eso me permitió entender mejor la complejidad de trabajar en equipo y de utilizar esta plataforma de manera correcta.
+
+---
+
 <h6 align="center"> *Proyecto realizado para la materia Programación I (UTN 2025).*</h6>

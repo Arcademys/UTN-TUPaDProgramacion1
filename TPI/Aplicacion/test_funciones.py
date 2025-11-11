@@ -1,33 +1,24 @@
-from funciones import *
+from funciones import * 
 
-ruta = "/home/arcademys/Documents/Repositorios/UTN-TUPaDProgramacion1/TPI/Aplicacion/paises_mundo_2023.csv"
+# --- Ruta al archivo CSV ---
+# Opción 1 (recomendada): ruta relativa
+#ruta = "paises_mundo_2023.csv"
 
-# Cargar países
+# Opción 2 (si el archivo está en otra carpeta)
+ruta = "TPI/Aplicacion/paises_mundo_2023.csv"
+
+# --- Leemos los datos ---
 paises = leer_csv(ruta)
-print("llega leer_csv:", len(paises), "países cargados\n")
+"""
+# --- Mostramos los datos en crudo ---
+print("\n=== CONTENIDO DEL ARCHIVO EN CRUDO ===\n")
+if paises:
+    for pais in paises:
+        print(pais)
+else:
+    print(paises)
+"""
+nombre = "Argentina"
+resu = buscar_pais(paises, nombre)
 
-# Test agregar
-nuevo = {
-    "nombre": "Uruguay",
-    "iso_codigo": "URY",
-    "poblacion": 3500000,
-    "anio_poblacion": 2023,
-    "superficie_km2": 176215,
-    "continente": "América del Sur",
-    "capital": "Montevideo",
-}
-
-print("llega agregar_pais:", agregar_pais(paises, nuevo))
-print("llega actualizar_pais:", actualizar_pais(paises, "Argentina", 47000000, 2780400))
-
-# Test búsquedas y filtros
-print("llega buscar_pais:", len(buscar_pais(paises, "ar")))
-print("llega filtrar_por_continente:", len(filtrar_por_continente(paises, "Europa")))
-print(
-    "llega filtrar_por_rango_poblacion:",
-    len(filtrar_por_rango_poblacion(paises, 1000000, 50000000)),
-)
-
-# Test ordenamientos
-ordenados = ordenar_por_nombre(paises)
-print("llega ordenar_por_nombre:", [p["nombre"] for p in ordenados[:5]])
+print(resu)
